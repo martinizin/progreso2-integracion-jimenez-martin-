@@ -6,8 +6,8 @@
 
 ## 1. Nombre del estudiante
 
-**Jiménez M.**
-Universidad UDLA · Integración de Sistemas
+**Jiménez Martin.**
+- Integración de Sistemas
 
 ---
 
@@ -210,17 +210,54 @@ JimenezM_examenP2/
 
 ---
 
-## 10. Evidencia esperada
+## 10. Evidencia
 
-Para verificar el funcionamiento completo, capturar:
 
 1. **Aplicación iniciada** — consola de Spring Boot mostrando rutas Camel registradas sin errores.
-2. **Request válido** — Postman/curl con el payload de ejemplo.
-3. **Respuesta 202** — cuerpo JSON con `estado: "ACEPTADA"`.
-4. **`billing.queue`** — consola RabbitMQ muestra 1 mensaje encolado.
-5. **`notifications.queue` y `analytics.queue`** — cada una con 1 mensaje (mismo evento fanout).
-6. **`auditoria-citas.csv`** — archivo con cabecera + línea de datos.
-7. **`citas-rechazadas.log`** — entrada con timestamp, idCita y motivo ante una solicitud inválida.
+
+
+<img width="886" height="250" alt="image" src="https://github.com/user-attachments/assets/e6f8675a-234b-49ef-b082-f82b4aa80c4d" />
+
+
+<img width="886" height="221" alt="image" src="https://github.com/user-attachments/assets/9833e9d6-e564-4298-811b-79f376e4f79f" />
+
+
+3. **Request válido** — Postman/curl con el payload de ejemplo.
+
+
+<img width="886" height="330" alt="image" src="https://github.com/user-attachments/assets/9835a125-33bf-4ea1-846a-1760a5d2119f" />
+
+
+5. **Respuesta 202** — cuerpo JSON con `estado: "ACEPTADA"`.
+
+<img width="886" height="543" alt="image" src="https://github.com/user-attachments/assets/92766755-42dd-404e-af25-233af6cd0e07" />
+
+
+
+7. **`billing.queue`** — consola RabbitMQ muestra 1 mensaje encolado.
+
+<img width="886" height="421" alt="image" src="https://github.com/user-attachments/assets/08e13077-ce2c-4c3e-a47c-65ca930a6671" />
+
+
+
+9. **`notifications.queue` y `analytics.queue`** — cada una con 1 mensaje (mismo evento fanout).
+
+<img width="886" height="427" alt="image" src="https://github.com/user-attachments/assets/929b09dc-a64b-4fc8-b3fb-0d9fa43ed04c" />
+
+
+<img width="886" height="421" alt="image" src="https://github.com/user-attachments/assets/70677c83-4b75-4036-a76b-161756739e56" />
+
+
+11. **`auditoria-citas.csv`** — archivo con cabecera + línea de datos.
+
+
+<img width="886" height="292" alt="image" src="https://github.com/user-attachments/assets/eca71820-e210-4181-a23b-58a399812608" />
+
+
+13. **`citas-rechazadas.log`** — entrada con timestamp, idCita y motivo ante una solicitud inválida.
+
+<img width="886" height="81" alt="image" src="https://github.com/user-attachments/assets/9a521110-a2e6-40b6-9205-8fa1f4431df8" />
+
 
 ---
 
