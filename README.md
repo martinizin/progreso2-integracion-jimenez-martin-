@@ -4,9 +4,9 @@
 
 ---
 
-## 1. Nombre del estudiante
+## 1. Nombre
 
-**Jiménez Martin.**
+**Martin Jimenez.**
 - Integración de Sistemas
 
 ---
