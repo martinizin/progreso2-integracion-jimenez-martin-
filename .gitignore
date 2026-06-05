@@ -1,0 +1,26 @@
+# Compilados
+/target/
+*.class
+
+# IDEs
+.atl/
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+*.factorypath
+
+# Logs de runtime (conservar .gitkeep)
+*.log
+!**/.gitkeep
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Maven wrapper (opcional: descomenta si no usas wrapper)
+# .mvn/
+# mvnw
+# mvnw.cmd
