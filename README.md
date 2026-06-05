@@ -31,6 +31,10 @@ POST /api/citas
 ```
 
 ---
+## DIAGRAMA DE FLUJO
+
+<img width="2752" height="1536" alt="Gemini_Generated_Image_bqhe54bqhe54bqhe" src="https://github.com/user-attachments/assets/66ce7d2f-7604-41e2-b770-52a6d4faec67" />
+
 
 ## 3. Tecnologías utilizadas
 
